@@ -1,0 +1,18 @@
+server:
+  port: 9090
+  context-path: /SpringBootDemo
+  tomcat:
+    uri-encoding: utf-8
+
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  messages:
+    encoding: UTF-8
+
+logging:
+  file: D:/logging/springboot
+  level: debug
